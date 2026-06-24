@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [32, 3]
+flip_idx: [24, 25, 26, 27, 28, 29, 22, 23, 21, 17, 18, 19, 20, 13, 14, 15, 16, 9, 10, 11, 12, 8, 6, 7, 0, 1, 2, 3, 4, 5, 31, 30]
+
+nc: 1
+names: ['pitch']
+
+roboflow:
+  workspace: roboflow-jvuqo
+  project: football-field-detection-f07vi
+  version: 14
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-jvuqo/football-field-detection-f07vi/dataset/14

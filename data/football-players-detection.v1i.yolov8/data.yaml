@@ -1,0 +1,6 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['ball', 'goalkeeper', 'player', 'referee', 'corner', 'goal']
